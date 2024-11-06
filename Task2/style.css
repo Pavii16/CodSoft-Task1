@@ -1,0 +1,100 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: skyblue;
+    color: navy;
+    line-height: 1.6;
+}
+img{
+    
+    padding-right: 2000px;
+    height: 100px;
+   
+}
+
+/* Header and Navigation */
+header {
+    background: white;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 800px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* About Me Section */
+.social-links a {
+    margin: 0 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Skills, Achievements, Proficiency Sections */
+ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Contact Form */
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+#contact-form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
